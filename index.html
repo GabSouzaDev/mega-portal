@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <title>Mega Portal</title>
+</head>
+<body>
+    <!--TOPO-->
+    <div class="under-top">
+        <div class="top">
+            <div class="menu-top">
+                <ul>
+                    <li><a href="#" class="ativo">Home</a></li>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Anuncie Aqui</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div> <!--menu-top-->
+            <div class="search-top">
+                <div class="under-search"> <!--background de baixo do botão de pesquisa -->
+                    <input type="image" src="assets/images/icons/pesquisa.png" alt="" width="25px" height="25px" class="search-button">
+                    <input type="search" name="pesquisar" placeholder="Buscar..." class="search">
+                </div> 
+                <div class="social whatsapp"><a href=""><img src="assets/images/icons/wha1.png" alt=""></a></div>
+                <div class="social youtube"><a href=""><img src="assets/images/icons/you1.png" alt=""></a></div>
+                <div class="social twitter"><a href=""><img src="assets/images/icons/twi.png" alt=""></a></div>
+                <div class="social instagram"><a href=""><img src="assets/images/icons/ins1.png" alt=""></a></div>
+                <div class="social facebook"><a href=""><img src="assets/images/icons/fb1.png"  alt=""></a></div>
+            </div> <!--search-top-->
+        </div> <!--top-->
+    </div> <!--under-top-->
+    <!--CABECALHO-->
+    <div class="under-header">
+        <div class="header">
+            <div class="cabecalho">
+                Mega Portal
+            </div>
+            <div class="ads">
+                PUBLICIDADE 728x90px
+            </div>
+        </div><!--header-->
+    </div> <!--under-header-->
+
+    <!--MENU CABECALHO-->
+    <div class="under-menu-header">
+        <div class="menu-header" >
+            <img src="assets/images/menumobile.png" class="menu-mobile" onclick="toggleMenu()">
+            <ul id="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Economia</a></li>
+                <li><a href="">Política</a></li>
+
+                <li>
+                    <a href="">Esportes <span style="font-size:10px">&#9660;</span></a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="#">E-sports</a></li>
+                            <li><a href="#">Futebol</a></l i>
+                            <li><a href="#">Basquete</a></li>
+                            <li><a href="#">Volei</a></li>
+                            <li><a href="#">Pesca</a></li>
+                        </ul>
+                    </div>
+                
+                </li>
+                <li><a href="">Geral</a></li>
+                <li>
+                    <a href="">Notícias <span style="font-size:10px">&#9660;</span></a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="#">Covid-19</a></li>
+                            <li><a href="#">Saúde</a></li>
+                            <li><a href="#">Municipal </a></li>
+                            <li><a href="#">Internacional</a></li>
+                        </ul>
+                    </div>
+                </li>
+                
+                <li>
+                    <a href="">Entretenimento <span style="font-size:10px">&#9660;</span></a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="#">Filmes</a></li>
+                            <li><a href="#">Series</a></l i>
+                            <li><a href="#">Novelas</a></li>
+                            <li><a href="#">Animes</a></li>
+                            <li><a href="#">Desenhos</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">Videos</a></li>
+
+            </ul>
+        </div> <!--menu-header-->
+        
+    </div> <!--under-menu-header-->
+
+    <!--ULTIMAS NOTÍCIAS-->
+    <div class="under-last">
+        <div class="under-last-bar">
+            <div class="last">
+                ÚLTIMAS NOTÍCIAS
+            </div>
+            <div class="last-notice">
+                Criador da Internet teme a perda de todas as nossas memórias digitais no futuro
+            </div>
+        </div>
+    </div>
+
+    <!--MAIN DO SITE-->
+    <div class="under-container">
+        <div class="container">
+            <div class="leftside">
+                <!--SLIDESHOW-->
+
+                <div class="slideshow" id="slideshow">
+                    <div class="protect-submenu">
+                        <div class="slideshow-pass">
+                            <div class="slide-circle" onclick="changeCircle(0)"></div>
+                            <div class="slide-circle" onclick="changeCircle(1)"></div>
+                            <div class="slide-circle" onclick="changeCircle(2)"></div>
+                            <div class="slide-circle" onclick="changeCircle(3)"></div>
+                            <div class="slide-circle" onclick="changeCircle(4)"> </div>
+                            <div class="slide-circle" onclick="changeCircle(5)"></div>
+                        </div>
+                    </div>
+                    <div class="slideshowarea">
+                        <!--slideshow 1-->
+                        <a href="#">
+                        <div class="slide" style="background-image: url('assets/images/slide1.jpeg');">
+                            <div class="slide-caption">
+                                <div class="slide-caption-title">
+                                    Título do Conteúdo
+                                </div>
+                                <div class="slide-caption-subtitle">
+                                    Subtítulo do Conteúdo
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <!--slideshow 2-->
+                        <a href="#">
+                        <div class="slide" style="background-image: url('assets/images/slide2.jpeg');">
+                            <div class="slide-caption">
+                                <div class="slide-caption-title">
+                                    Título do Conteúdo 1
+                                </div>
+                                <div class="slide-caption-subtitle">
+                                    Subtítulo do Conteúdo 1
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <!--slideshow 3-->
+                        <a href="#">
+                        <div class="slide" style="background-image: url('assets/images/slide3.jpg');">
+                            <div class="slide-caption">
+                                <div class="slide-caption-title">
+                                    Título do Conteúdo 2
+                                </div>
+                                <div class="slide-caption-subtitle">
+                                    Subtítulo do Conteúdo 2
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <!--slideshow 4-->
+                        <a href="#">
+                        <div class="slide" style="background-image: url('assets/images/slide4.jpg');">
+                            <div class="slide-caption">
+                                <div class="slide-caption-title">
+                                    Título do Conteúdo 3
+                                </div>
+                                <div class="slide-caption-subtitle">
+                                    Subtítulo do Conteúdo 3
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <!--slideshow 5-->
+                        <a href="#">
+                        <div class="slide" style="background-image: url('assets/images/slide5.jpg');">
+                            <div class="slide-caption">
+                                <div class="slide-caption-title">
+                                    Título do Conteúdo 4
+                                </div>
+                                <div class="slide-caption-subtitle">
+                                    Subtítulo do Conteúdo 4
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        <!--slideshow 6-->
+                        <a href="#">
+                        <div class="slide" style="background-image: url('assets/images/slide6.jpg');">
+                            <div class="slide-caption">
+                                <div class="slide-caption-title">
+                                    Título do Conteúdo 5
+                                </div>
+                                <div class="slide-caption-subtitle">
+                                    Subtítulo do Conteúdo 5
+                                </div>
+                            </div>
+                        </a>
+                        </div>  
+                    </div> <!--slideshowarea-->
+                </div> <!--slideshow-->
+                <!--FIM DO SLIDESHOW-->
+
+                <div class="section">
+                    <div class="section-title">NOTÍCIAS</div> 
+                    <div class="section-content">
+                        <div class="section-news-left">
+                            <div class="section-news-area big-news-area">
+                                <div class="section-news-img big-news-img">
+                                    <img href="#">
+                                </div>
+
+                                <div class="big-news-area-element">
+                                    <div class="big-news-title">
+                                        Algum texto pra ficar legal eu sei que sou chato mas é pra fazer o teste do bgl aqui.
+                                    </div>
+
+                                    <div class="big-news-info">
+                                        <div class="info-data">
+                                            30 dias atrás
+                                        </div>
+                                        <div class="info-comments">
+                                            Deixe um comentario:
+                                        </div>
+                                    </div>
+                                    <div class="big-news-description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae illum alias eos error delectus. Numquam aliquid repellendus non deleniti ut ipsa qui quae dignissimos quam nihil. Repudiandae saepe enim facere.
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!--section-content-left-->
+
+                        <div class="section-news-right">
+                            <div class="section-news-area">
+                                <div class="section-news-img">
+                                    <img href="#">
+                                </div>
+                                <div class="section-news-title">
+                                    Algum texto qualquer para ficar legal eu sei que sou chato mas é pra fazer o teste do bgl aqui.
+                                </div>
+
+                                <div class="section-news-info">
+                                    <div class="info-data">
+                                        Data: 29/01/2021
+                                    </div>
+                                    <div class="info-comments">
+                                        Comentarios: 500
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section-news-area">
+                                <div class="section-news-img">
+                                    <img href="#">
+                                </div>
+                                <div class="section-news-title">
+                                    Algum texto qualquer para ficar legal eu sei que sou chato mas é pra fazer o teste do bgl aqui.
+                                </div>
+
+                                <div class="section-news-info">
+                                    <div class="info-data">
+                                        Data: 28/01/2021
+                                    </div>
+                                    <div class="info-comments">
+                                        Comentarios: 500
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section-news-area">
+                                <div class="section-news-img">
+                                    <img href="#">
+                                </div>
+                                <div class="section-news-title">
+                                    Algum texto qualquer para ficar legal eu sei que sou chato mas é pra fazer o teste do bgl aqui.
+                                </div>
+
+                                <div class="section-news-info">
+                                    <div class="info-data">
+                                        Data: 27/01/2021
+                                    </div>
+                                    <div class="info-comments">
+                                        Comentarios: 500
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section-news-area">
+                                <div class="section-news-img">
+                                    <img href="#">
+                                </div>
+                                <div class="section-news-title">
+                                    Algum texto qualquer para ficar legal eu sei que sou chato mas é pra fazer o teste do bgl aqui.
+                                </div>
+
+                                <div class="section-news-info">
+                                    <div class="info-data">
+                                        Data: 26/01/2021
+                                    </div>
+                                    <div class="info-comments">
+                                        Comentarios: 500
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!--section-content-right-->
+                    </div> <!--section-content-->
+                    <div style="clear: both;"></div>
+
+                </div> <!--section-->
+            
+            </div> <!--leftside-->
+        
+            <div class="rightside">
+                <div class="widget">
+                    <div class="widget-title">SOCIAL</div>
+                    <div class="widget-img">
+                        <a href=""><img src="assets/images/icons/fb-widget.png" alt="" class="facebook social"></a>
+                        <a href=""><img src="assets/images/icons/ins-widget.png" alt="" class="instagram social"></a>
+                        <a href=""><img src="assets/images/icons/twi-widget.png" alt="" class="twitter social"></a>
+                        <a href=""><img src="assets/images/icons/you-widget.png" alt="" class="youtube social"></a>
+                        <a href=""><img src="assets/images/icons/wha-widget.png" alt="" class="whatsapp social"></a>
+                    </div>
+                </div> 
+                
+                <div class="widget">
+                    <div class="widget-title">ÚLTIMAS NOTÍCIAS</div>
+                    <a href="#"><div class="widget-content ativo border-bottom">Polícia militar prende quadrilha com drogas e metralhadora na zona norte de Teresina</div></a>
+                    <a href="#"><div class="widget-content border-bottom">Em retorno ao Mineirão, Cruzeiro empata por 1 x 1 com a Caldense no Campeonato Mineiro</div></a>
+                    <a href="#"><div class="widget-content border-bottom" >"Pessoas como ela são alicerces para que o melhor da moda não morra!"</div></a>
+                    <a href="#"><div class="widget-content border-bottom">Criador da internet teme a perda de todas as nossas memórias digitais no futuro</div></a>
+                    <a href="#"><div class="widget-content border-bottom">Barack Obama é flagrado tirando foto com o 'pau de selfie'</div></a>
+                </div>
+
+                <div class="widget">
+                    <div class="widget-title">PUBLICIDADE</div>
+                    <div class="widget-content"><img src="assets/images/publicidade.png" style="width:300px; height:300px;" alt=""></div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget-title">ENCONTRE-NOS NO FACEBOOK</div>
+                    <div id="fb-root"></div>
+                    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v9.0" nonce="snbiyNQH"></script>
+                    <div class="widget-content"><div class="fb-page" data-href="https://www.facebook.com/crissouzzabronze" data-tabs="timeline" data-width="300px" data-height="500px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div></div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget-title">VIDEO EM DESTAQUE</div>
+                    <div class="widget-content"><video src="assets/videos/video1.mp4" style="width:300px; height:300px;" controls autoplay muted loop ></div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget-title">PUBLICIDADE</div>
+                    <div class="widget-content"><img src="assets/images/publicidade2.jpg" style="width:300px; height:300px; background-color:#F00;"></div>
+                </div>
+            </div> <!--rightside-->
+        </div> <!--container-->
+    </div> <!--under-container-->
+
+</body>
+</html>
