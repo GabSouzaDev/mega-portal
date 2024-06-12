@@ -1,2 +1,3 @@
 # mega-portal
-Projeto prático de interface
+Projeto prático para estudo de interface
+https://gabsouzadev.github.io/mega-portal/
